@@ -537,17 +537,17 @@ int recognition(Mat canavas,int *labelToAccept)
 	cout<<"recognition()"<<endl;
 	int squaredDistanceLocal;
 	setResolution(canavas,resolved);
-		// namedWindow("resolved",WINDOW_NORMAL);
-		// imshow("resolved",resolved);
+		namedWindow("resolved",WINDOW_NORMAL);
+		 imshow("resolved",resolved);
 	findBoundary(resolved);
 		cout<<boundary[0]<<" "<<boundary[1]<<" "<<boundary[2]<<" "<<boundary[3]<<endl;
 		cout<<boundary[1]-boundary[0]<<" "<<boundary[3]-boundary[2]<<endl;
 	scaling(resolved,scaled);
-		// namedWindow("scaled",WINDOW_NORMAL);	
-		// imshow("scaled",scaled);
+		 namedWindow("scaled",WINDOW_NORMAL);	
+		 imshow("scaled",scaled);
 	filtering(scaled,filtered);
-		// namedWindow("filtered",WINDOW_NORMAL);	
-		// imshow("filtered",filtered);
+		 namedWindow("filtered",WINDOW_NORMAL);	
+		 imshow("filtered",filtered);
 
 	initializeImageToStruct(&capturedImage,filtered);
 	setComnPoints(&capturedImage);
