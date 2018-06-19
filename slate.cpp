@@ -89,7 +89,7 @@ void asciiArtActivity();
 int secondActivity(int);
 void initializeArray(int*,int);
 void setLabelFrequency(int*,int*);
-VideoCapture cap(0);
+VideoCapture cap("v4l2:///dev/video0");
 void sampleFrameDraw(Mat resolved)
 {
 	cout<<"sampleFrameDraw"<<endl;
