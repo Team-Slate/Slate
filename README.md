@@ -66,7 +66,7 @@ $ pkg-config --modversion opencv
 
 ## Compile Instructions
 
-$ g++ -std=gnu++11 slate.cpp -o output `pkg-config --cflags --libs opencv`
+$ g++ -std=gnu++11 slate.cpp -o output \`pkg-config --cflags --libs opencv\`
 
 ## Running the output file
 
