@@ -6,6 +6,9 @@ Slate is a handwriting recognition program that takes input with the help of a p
 ### Video Link
 https://youtu.be/K1Mnbz6ATeo
 
+### Pen
+![alt text](https://github.com/kingsisland/Slate/blob/master/penWork.jpg)
+
 ## CONTRIBUTORS
 * Anubhaw Bhalotia
 * Karthik Vedantam
